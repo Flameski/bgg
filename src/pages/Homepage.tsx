@@ -1,7 +1,9 @@
 import React from 'react';
 
-function Homepage() {
-  return <div>Homepage</div>;
-}
+interface HomepageProps {}
+
+const Homepage: React.FC<HomepageProps> = (): React.ReactElement => {
+  return <h2>Homepage</h2>;
+};
 
 export default Homepage;
