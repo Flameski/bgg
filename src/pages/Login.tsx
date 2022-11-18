@@ -6,6 +6,7 @@ interface LoginPageProps {}
 const Login: React.FC<LoginPageProps> = (): React.ReactElement => {
   const navigate = useNavigate();
 
+  // eslint-disable-next-line
   const handleSubmit = () => {
     navigate('/profile');
   };
