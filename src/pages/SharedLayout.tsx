@@ -1,14 +1,14 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Footer from '../components/Footer';
-import StyledNavbar from '../components/StyledNavbar';
+import Navbar from '../components/Navbar';
 
 interface HomepageProps {}
 
 const Homepage: React.FC<HomepageProps> = (): React.ReactElement => {
   return (
     <>
-      <StyledNavbar />
+      <Navbar />
       <section>
         <Outlet />
       </section>
